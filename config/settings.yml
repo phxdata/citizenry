@@ -39,7 +39,7 @@ common:
     email: admin@domain.org
     host: host
     host_url: host@domain.com
-    logotype: <img src="/images/washington-row.png" width="55"/>
+    logotype: <span>washington</span>row
   mailer:
     # delivery specific settings should be set in environment configs below
     # (you don't want to send out real emails in tests, do you?)
