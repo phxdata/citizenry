@@ -10,7 +10,8 @@ gem 'rails-i18n'
 #     export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 #
 # Note: the exact path to your MySQL lib/ directory may vary.
-gem 'mysql2', '~> 0.3.2'
+# gem 'mysql2', '~> 0.3.2'
+gem 'pg'
 # Uncomment if you're using sqlite
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 
@@ -40,7 +41,7 @@ gem 'foursquare2', '~>1.1.0'   # https://gist.github.com/419219 <- github oauth 
 
 #--[ Search ]-------------------------------------------------------------------
 # If you're using the default sql-based search, you can comment this out.
-gem 'thinking-sphinx', '~> 2.0.1', :require => 'thinking_sphinx'
+# gem 'thinking-sphinx', '~> 2.0.1', :require => 'thinking_sphinx'
 
 #--[ Model ]--------------------------------------------------------------------
 gem "paperclip", "~> 2.3"
@@ -90,6 +91,7 @@ group :development, :test do
 
   gem 'annotate'
   gem "nifty-generators"
+  gem 'foreman'
 end
 
 
