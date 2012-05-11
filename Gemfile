@@ -16,7 +16,7 @@ gem 'pg'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
-gem 'unicorn'
+# gem 'unicorn'
 
 gem 'hoptoad_notifier'
 
