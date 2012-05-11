@@ -15,6 +15,8 @@ gem 'pg'
 # Uncomment if you're using sqlite
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 
+# Use unicorn as the web server
+gem 'unicorn'
 
 gem 'hoptoad_notifier'
 
@@ -92,6 +94,9 @@ group :development, :test do
   gem 'annotate'
   gem "nifty-generators"
   gem 'foreman'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-bundler'
 end
 
 
