@@ -118,7 +118,7 @@ en:
   layout:
     follow_link: Follow %{link} on Twitter
     title: "%{name}: %{city}'s Tech Directory"
-    contact_link: Questions? Comments? Desires? Email %{email}
+    contact_link: Questions? Comments? Email %{email}
     powered_by: Powered by %{powered_by}.
     hosting_credit: Hosting thanks to %{host}.
   misc:
