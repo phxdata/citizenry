@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '~> 3.1.0'
 gem 'rake', :require => false
 gem 'rails-i18n'
 
@@ -16,7 +16,7 @@ gem 'pg'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 gem 'hoptoad_notifier'
 
