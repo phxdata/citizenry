@@ -64,3 +64,17 @@ development:
     #  user_name: smtp_user
     #  password: smtp_password
     #  authentication: plain
+  # using foreman? great, create a .env and keep the environment variables there:
+  # ie.
+  # $ cat .env
+  # S3_KEY=19jxmx
+  # S3_SECRET=decc
+  # S3_BUCKET=team-development
+  s3_key: <%= ENV['S3_KEY'] %>
+  s3_secret: <%= ENV['S3_SECRET'] %>
+  s3_bucket: <%= ENV['S3_BUCKET'] %>
+
+production:
+  s3_key: <%= ENV['S3_KEY'] %>
+  s3_secret: <%= ENV['S3_SECRET'] %>
+  s3_bucket: <%= ENV['S3_BUCKET'] %>

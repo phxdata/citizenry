@@ -67,6 +67,11 @@ GEM
       builder
       mime-types
       xml-simple
+    aws-sdk (1.5.1)
+      httparty (~> 0.7)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+      uuidtools (~> 2.1)
     bcrypt-ruby (3.0.1)
     builder (3.0.0)
     capybara (1.1.2)
@@ -343,6 +348,7 @@ GEM
       wirble (>= 0.1.2)
     uuid (2.3.5)
       macaddr (~> 1.0)
+    uuidtools (2.1.2)
     warden (1.0.6)
       rack (>= 1.0)
     will_paginate (3.0.3)
@@ -359,6 +365,7 @@ DEPENDENCIES
   addressable (~> 2.2.4)
   annotate
   awesome_print
+  aws-sdk
   capybara (~> 1.1.1)
   compass (~> 0.11.5)
   compass-960-plugin (~> 0.10.4)

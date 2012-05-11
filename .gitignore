@@ -23,3 +23,4 @@ tags
 app/stylesheets/custom.sass
 app/views/layouts/_custom_css_includes.html.haml
 .rvmrc
+.env

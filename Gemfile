@@ -59,6 +59,8 @@ gem 'paper_trail_manager'
 # gem 'paper_trail_manager', :git => 'git://github.com/igal/paper_trail_manager.git'
 # gem 'paper_trail_manager', :path => '../paper_trail_manager'
 
+gem 'aws-sdk'
+
 #--[ View ]---------------------------------------------------------------------
 gem "haml", "~> 3.1.2"
 gem "sass", "~> 3.1.4"
