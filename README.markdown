@@ -9,20 +9,17 @@ Installation
 ------------
 
 1. Clone the app
-
 ```
 git clone git://github.com/phxdata/citizenry.git
 ```
 
 2. Push to Heroku
-
 ```
 heroku create citizenry-app -s cedar
 git push heroku master
 ``` 
 
 3. Heroku setup
-
 ```
 heroku run rake db:migrate
 heroku config:add S3_KEY=1fad......
@@ -31,7 +28,6 @@ heroku config:add S3_BUCKET=unique-snowflake-bucket
 ```
 
 4. Local setup
-
 Make changes in `config/settings.yml`
 
 
