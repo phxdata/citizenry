@@ -27,8 +27,7 @@ heroku config:add S3_SECRET=44sfad......
 heroku config:add S3_BUCKET=unique-snowflake-bucket
 ```
 
-4. Local setup
-Make changes in `config/settings.yml`
+4. Don't forget to change your app settings in `config/settings.yml`
 
 
 Colophon
